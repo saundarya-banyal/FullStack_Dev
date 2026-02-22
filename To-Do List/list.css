@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    background-image: url('Ghost-of-Tsushima-Review-.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.task-input {
+    padding: 8px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.add-btn {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn {
+    padding: 8px 15px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.task-list {
+    list-style-position: inside;
+    padding: 0;
+}
+
+.task-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.task-list li.selected {
+    background-color: #2196F3;
+    color: white;
+}
+
+.message {
+    color: red;
+    margin: 10px 0;
+}
