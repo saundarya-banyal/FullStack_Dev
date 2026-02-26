@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI", Arial, sans-serif;
+}
+
+body{
+    background-size:cover;
+    background-attachment:fixed;
+    color:#2c3e50;
+}
+
+.container{
+    width:750px;
+    margin:50px auto;
+    padding:30px;
+
+    background:rgba(255,255,255,0.95);
+    border-radius:10px;
+
+    box-shadow:0 8px 18px rgba(0,0,0,0.2);
+
+    text-align:left;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:15px;
+    color:#1f3c88;
+}
+
+h2{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+h3{
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+form{
+    text-align:left;
+}
+
+label{
+    font-weight:600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select{
+    width:100%;
+    padding:10px;
+    margin-top:6px;
+    margin-bottom:15px;
+
+    border-radius:5px;
+    border:1px solid #bbb;
+}
+
+textarea{
+    resize:none;
+}
+
+input[type="radio"]{
+    margin-right:6px;
+}
+
+button,
+input[type="submit"]{
+
+    padding:10px 18px;
+    border:none;
+    border-radius:5px;
+
+    background:#1f3c88;
+    color:white;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.home-buttons{
+    text-align:center;
+    margin:25px 0;
+}
+
+.mainBtn{
+    margin:10px;
+    font-size:16px;
+}
+
+#searchInput{
+    width:80%;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid #bbb;
+}
+
+#searchBtn{
+    padding:10px 18px;
+    margin-left:10px;
+}
+
+.job-card{
+    background:white;
+    border-radius:8px;
+
+    padding:18px;
+    margin-top:18px;
+
+    border-left:5px solid #1f3c88;
+
+    box-shadow:0 3px 8px rgba(0,0,0,0.15);
+}
+
+.job-card h3{
+    color:#1f3c88;
+}
+
+.job-card button{
+    margin-top:10px;
+    margin-right:8px;
+}
+
+.highlight{
+    border-left:5px solid #27ae60;
+    background:#eafaf1;
+}
+
+.footer{
+    text-align:center;
+    margin-top:20px;
+    font-size:13px;
+    color:#666;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post a New Job</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="66e1b13883b8099cf9fd7d8b.webp" style="background-size: cover;">
+<center>    
+<br><br>
+
+<h3>Search Posted Jobs</h3>
+
+<input type="text" id="searchInput"
+placeholder="Enter Job Title / Company / Location">
+
+<button id="searchBtn">Search</button>
+
+<br><br>
+<div class="container">
+
+<h1>Post a New Job</h1>
+
+<button id="postButton">Post Job</button>
+
+<form id="jobForm" style="display:none;">
+
+Job Title:<br>
+<input type="text" id="jobtitle"><br>
+
+Company:<br>
+<input type="text" id="company"><br>
+
+Location:<br>
+<input type="text" id="location"><br>
+
+Salary:<br>
+<input type="text" id="salary"><br>
+
+<br>
+<button type="submit">Submit</button>
+<button type="button" id="cancelBtn">Cancel</button>
+
+</form>
+
+<hr>
+
+<h2>Posted Jobs</h2>
+<div id="jobsContainer"></div>
+
+</div>
+<script src="PostJob.js"></script>
+</center>
+</body>
+</html>
