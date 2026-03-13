@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Expense Tracker</title>
+</head>
+
+<body>
+
+<h2>Expense Tracker</h2>
+
+<button id="addBtn">Add Expense</button>
+<button id="updateBtn">Update Expense</button>
+<button id="totalBtn">Calculate Total</button>
+
+<br><br>
+
+Expense Name:
+<input type="text" id="name">
+
+<br><br>
+
+Amount:
+<input type="number" id="amount">
+
+<br><br>
+
+Category:
+<select id="category">
+<option>Food</option>
+<option>Travel</option>
+<option>Shopping</option>
+</select>
+
+<br><br>
+
+<table border="1" id="expenseTable">
+
+<tr>
+<th>Name</th>
+<th>Amount</th>
+<th>Category</th>
+<th>Action</th>
+</tr>
+
+</table>
+
+<h3>Total Expense: ₹<span id="total">0</span></h3>
+
+<script src="script.js"></script>
+
+</body>
+</html>
